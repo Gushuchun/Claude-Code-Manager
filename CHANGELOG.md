@@ -23,6 +23,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `ccm run` falls back to shell interpretation when exec fails with `ENOEXEC`
   (shebang-less scripts), and supports the `CCM_CLAUDE` env var to override
   which claude binary is launched.
+- Require Python 3.10+; `str | None` annotations break Typer's runtime type
+  hint evaluation on Python 3.9.
 
 ## [0.1.0] - 2026-08-21
 

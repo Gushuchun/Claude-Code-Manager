@@ -45,7 +45,7 @@ uv tool install .
 uv tool install --editable .
 ```
 
-Requires Python 3.9+.
+Requires Python 3.10+.
 
 ## Quickstart
 

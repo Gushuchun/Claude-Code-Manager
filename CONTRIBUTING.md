@@ -6,7 +6,7 @@ Thanks for your interest in contributing to Claude Code Manager (ccm)!
 
 Requirements:
 
-- Python 3.9+
+- Python 3.10+
 - [uv](https://docs.astral.sh/uv/)
 
 ```bash
